@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Lesson1</string>
+    <string name="text1">Урок 1</string>
+    <string name="but_to2maket_text">Перейти ко второму макету</string>
+    <string name="but_to1maket_text">Перейти к первому макету</string>
+    <string name="checkbox1">Чекбокс1</string>
+    <string name="toggle_button1">Кнопка преключатель</string>
+    <string name="swith1">Переключатель</string>
+    <string name="toggle_off">Выключена</string>
+    <string name="toggle_on">Включена</string>
+    <string name="enter_text">Введите текст</string>
+    <string name="enter_name">Введите имя</string>
+    <string name="enter_phone">Введите телефон</string>
+    <string name="enter_number">Введите число</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="enter_email_address">Введите адрес электронной почты</string>
+    <string name="enter_date">Введите дату</string>
 </resources>

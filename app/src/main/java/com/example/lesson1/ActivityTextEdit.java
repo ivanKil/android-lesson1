@@ -5,19 +5,18 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class ActivityTextEdit extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_text_edit);
 
-        findViewById(R.id.button_to_2maket).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.button_to_1maket).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, ActivityTextEdit.class));
+                startActivity(new Intent(ActivityTextEdit.this, MainActivity.class));
             }
         });
     }
